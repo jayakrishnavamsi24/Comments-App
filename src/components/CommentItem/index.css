@@ -1,0 +1,176 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-li-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 18px;
+}
+
+.comment-li-top-section {
+  display: flex;
+}
+
+.profile-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+
+.letter {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.name-time-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.person-name {
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 15px;
+  max-width: 43%;
+  overflow: auto;
+}
+
+.comment-time {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: #94a3b8;
+  font-size: 12px;
+  font-style: oblique;
+}
+
+.text-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+}
+
+.comment-text {
+  margin-top: 16px;
+  font-size: 13.5px;
+  color: #475569;
+  overflow: auto;
+  max-width: 90%;
+}
+
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-right: 5px;
+}
+
+.like-container {
+  display: flex;
+}
+
+.like-img {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.like-button {
+  height: 18px;
+  width: 33px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.like-txt-button {
+  height: 18px;
+  width: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0px;
+  color: #94a3b8;
+  padding-top: 4px;
+}
+
+.colored-like {
+  color: #0b69ff;
+}
+
+.delete-button {
+  height: 18px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+  border-width: 0px;
+}
+
+hr {
+  color: #cbd2d9;
+  background-color: #cbd2d9;
+  border-width: 0px;
+  height: 1px;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 576px) {
+  .comment-text {
+    max-width: 85%;
+  }
+}
